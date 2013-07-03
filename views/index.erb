@@ -1,0 +1,28 @@
+<html>
+  <title>____off</title>
+  <body style="
+      background-color: rgb(51,153,51);
+      background-image: url('');
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+  ">
+  <!-- background taken from http://kevichan.deviantart.com/art/Blanka-Wallpaper-293017655-->
+  <script>
+    var x = 1;
+    self.setInterval(jimmy, 1000);
+    function jimmy() {
+      switch(x++%10)
+      {
+        case 0:
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url(blanka-kevichan-deviantart.jpg)";    
+          break;
+        case 1:
+          document.getElementsByTagName('body')[0].style.backgroundImage = "url()";    
+          break;
+        default:
+          break;      
+      }
+    }
+  </script>
+  </body>
+</html>
